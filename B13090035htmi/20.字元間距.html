@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>文字間距範例</title>
+
+        <style>
+            /* #ls1：選取 id="ls1" 的元素，設定文字間距加大 */
+            #ls1 {
+                letter-spacing: 1.5em; /* 每個字之間空 1.5 個字元的寬度 */
+            }
+
+            /* #ls2：選取 id="ls2" 的元素，設定文字間距縮小 */
+            #ls2 {
+                letter-spacing: -5px; /* 每個字之間縮小 5px */
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 正常文字，未設定 letter-spacing -->
+        <h1>這是正常的文字間距</h1>
+
+        <!-- 文字間距較大 -->
+        <h1 id="ls1">這是較大的文字間距</h1>
+
+        <!-- 文字間距較小 -->
+        <h1 id="ls2">這是較小的文字間距</h1>
+    </body>
+</html>
